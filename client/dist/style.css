@@ -1,0 +1,14 @@
+.buttonAdd:hover { 
+  color: green;
+}
+
+.delete:hover {
+  color: red
+}
+
+.update:hover {
+  color: lightskyblue
+}
+.updateClick:hover {
+  cursor: pointer
+}

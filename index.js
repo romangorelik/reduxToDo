@@ -23,7 +23,7 @@ app.get('/todos', (req, res) => {
 app.delete('/todos', (req, res) => {
   console.log(req.body.task)
   model.delete(req.body.task)
-  res.send('deleted')
+  res.send(req.body.task)
 })
 
 app.put('/todos', (req, res) => {
